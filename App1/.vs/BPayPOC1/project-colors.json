@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "11d50acc-fb99-4248-97fc-497d10b6ad2e": {
+      "ProjectGuid": "11d50acc-fb99-4248-97fc-497d10b6ad2e",
+      "DisplayName": "BPayPOC1",
+      "ColorIndex": 0
+    },
+    "a1e7501f-e446-4dbe-9c8b-dc684358396c": {
+      "ProjectGuid": "a1e7501f-e446-4dbe-9c8b-dc684358396c",
+      "DisplayName": "BPayPOC1.Android",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

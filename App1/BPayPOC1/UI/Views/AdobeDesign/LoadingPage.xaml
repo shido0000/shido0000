@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="White"
+             x:Class="BPayPOC1.Views.AdobeDesign.LoadingPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Puedes agregar un fondo o un logotipo aquí -->
+
+        <!-- Etiqueta para mostrar "Cargando" -->
+        <Label Text="Cargando" FontSize="20" TextColor="Gray" VerticalOptions="Center" HorizontalOptions="Center" />
+
+        <!-- Barra de progreso horizontal -->
+        <ProgressBar x:Name="loadingProgressBar" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Grid.Row="1" AnchorY="25" />
+
+    </Grid>
+</ContentPage>

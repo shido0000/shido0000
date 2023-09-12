@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Github/v17
+/App1/.vs/prototipo_de_pantallas/DesignTimeBuild
+/App1/.vs/prototipo_de_pantallas/FileContentIndex
+*.v2
+/App1/prototipo_de_pantallas/prototipo_de_pantallas.Android/obj
+/App1/prototipo_de_pantallas/prototipo_de_pantallas.Android/bin/Debug
+/App1/prototipo_de_pantallas/prototipo_de_pantallas/bin/Debug/netstandard2.0
+/App1/prototipo_de_pantallas/prototipo_de_pantallas/obj
+/App1/BPayPOC1/UI/bin/Debug/netstandard2.0
+/App1/BPayPOC1/UI/obj
+/App1/BPayPOC1/UI.Android/bin/Debug
+/App1/BPayPOC1/UI.Android/obj
+/App1/.vs/ProjectEvaluation
+/App1/.vs/BPayPOC1/FileContentIndex
+/App1/.vs/BPayPOC1/v17/.futdcache.v1

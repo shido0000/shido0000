@@ -1,0 +1,239 @@
+<ContentPage x:Class="BPayPOCns.Views.AdobeDesign.Main"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Main">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Encabezado -->
+                <StackLayout Grid.Row="0" BackgroundColor="#ffffff" Padding="10">
+                    <Label x:Name="label_administracion"
+                           FontFamily="Segoe UI"
+                           FontAttributes="Bold"
+                           FontSize="23"
+                           TextColor="#000000"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Administracion de Vivienda" />
+                                <Span Text="&#10;" />
+                                <Span Text="Publica (Dpto. Vivienda)" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </StackLayout>
+
+                <Image x:Name="usa_48px"
+                       Source="usa_48px.png"
+                       AbsoluteLayout.LayoutBounds="1,0,48,48"
+                       AbsoluteLayout.LayoutFlags="PositionProportional"
+                       HorizontalOptions="End" />
+
+                <!-- Contenido principal -->
+                <StackLayout Grid.Row="1" BackgroundColor="#ffffff" Padding="10">
+                    <Label x:Name="label_departamento"
+                           FontFamily="Segoe UI"
+                           HorizontalTextAlignment="End"
+                           FontSize="12"
+                           TextColor="Gray"
+                           Text="DEPARTAMENTO DE LA"
+                           HorizontalOptions="End" />
+
+                    <Label x:Name="label_departamento_2"
+                           FontFamily="Segoe UI"
+                           HorizontalTextAlignment="End"
+                           FontSize="25"
+                           TextColor="#3f7130"
+                           Text="VIVIENDA"
+                           HorizontalOptions="End" />
+
+                    <AbsoluteLayout>
+                        <BoxView x:Name="rect_ngulo_1"
+                                 Color="#fcb860"
+                                 HeightRequest="45"
+                                 AbsoluteLayout.LayoutBounds="0,12,1,45"
+                                 AbsoluteLayout.LayoutFlags="WidthProportional" />
+
+                        <Label x:Name="label_instrucciones"
+                               FontFamily="Segoe UI"
+                               FontSize="20"
+                               TextColor="#707070"
+                               Text="Instrucciones:"
+                               AbsoluteLayout.LayoutBounds="10,10,1,45"
+                               AbsoluteLayout.LayoutFlags="WidthProportional"
+                               Margin="10" />
+                    </AbsoluteLayout>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Frame Grid.Column="0" BorderColor="Gray" Margin="0,2,1,0">
+                            <StackLayout Margin="-22">
+                                <Label x:Name="label_autenticacion"
+                                       FontFamily="Segoe UI"
+                                       FontAttributes="Bold"
+                                       FontSize="18"
+                                       TextColor="Blue"
+                                       Text="Autenticacion"
+                                       Margin="5" />
+
+                                <Entry Placeholder="Email" 
+                                       Margin="2" />
+
+                                <Entry Placeholder="4 ultimos del SSN"
+                                       Margin="2" />
+
+                                <BoxView Color="#9ceca4"
+                                         HeightRequest="45" WidthRequest="-10"
+                                         Margin="7" />
+
+                                <StackLayout Orientation="Horizontal" Grid.Column="0"  Margin="40,-50,0,25" >
+                                    <Label x:Name="y"
+                                           FontFamily="Segoe UI"
+                                           FontAttributes="Bold"
+                                           FontSize="25"
+                                           TextColor="#9724ee"
+                                           Text="Y"  />
+
+                                    <Label x:Name="a"
+                                           FontFamily="Segoe UI"
+                                           FontAttributes="Bold"
+                                           FontSize="20"
+                                           TextColor="#000000"
+                                           Text="A" />
+
+                                    <Label x:Name="s"
+                                           FontFamily="Segoe UI"
+                                           FontAttributes="Bold"
+                                           FontSize="25"
+                                           TextColor="#ce926a"
+                                           Text="S" />
+
+                                    <Label x:Name="_9"
+                                           FontFamily="Segoe UI"
+                                           FontAttributes="Bold"
+                                           FontSize="20"
+                                           TextColor="#4a2700"
+                                           Text="9" />
+                                </StackLayout>
+
+                                <Entry x:Name="rect_ngulo_7" Placeholder="Information of the imag"
+                                      Margin="0.1" />
+                            </StackLayout>
+                        </Frame>
+
+                        <StackLayout Grid.Row="1" VerticalOptions="Start" >
+                            <Button Text="Someter"  Clicked="OnBtnSometerClicked"
+                CornerRadius="8"
+                BackgroundColor="Blue"
+                TextColor="White"
+                FontFamily="Segoe UI"
+                FontAttributes="Bold"
+                FontSize="15"
+                Margin="5,5,1,0"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center" />
+                        </StackLayout>
+
+                        <BoxView Grid.Column="1" WidthRequest="1" BackgroundColor="Black" />
+
+                        <StackLayout Grid.Column="2" Margin="15,25">
+                            <Image x:Name="sin_t_tulo"
+                                   Source="sin_t_tulo.png"
+                                   AbsoluteLayout.LayoutBounds="277,289,74,70" />
+
+                            <Label x:Name="departamento_de_la_vivienda"
+                                   FontFamily="Segoe UI"
+                                   FontAttributes="Bold"
+                                   FontSize="18"
+                                   TextColor="#3a8d56"
+                                   Text="Departamento de la Vivienda"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center" />
+
+                            <Label x:Name="label_portal_de_servicios_al_residente"
+                                   FontFamily="Segoe UI"
+                                   FontAttributes="Bold"
+                                   FontSize="18"
+                                   TextColor="#3a8d56"
+                                   Text="Portal de Servicios al Residente"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center" />
+
+                            <Label x:Name="label_administracion_de_vivienda_publica"
+                                   FontFamily="Segoe UI"
+                                   FontAttributes="Bold"
+                                   FontSize="18"
+                                   TextColor="#3a8d56"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Administracion de Vivienda Publica " />
+                                        <Span Text="&#10;" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </Grid>
+
+
+                    <Image x:Name="l_nea_2"
+					Source="l_nea_2.png"
+					AbsoluteLayout.LayoutBounds="0,717,494.5,1" />
+
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Grid.Row="0" Grid.Column="0" VerticalOptions="EndAndExpand" HorizontalOptions="Start">
+                            <Image x:Name="sin_t_tulo_2" Source="sin_t_tulo_2.png" />
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="0" Grid.Column="1" VerticalOptions="EndAndExpand" HorizontalOptions="Start">
+                            <Label x:Name="label_anho"
+               FontFamily="Segoe UI"
+               FontAttributes="Bold"
+               FontSize="18"
+               TextColor="#706b6b"
+               Text="2023" />
+                        </StackLayout>
+                    </Grid>
+
+
+                </StackLayout>
+
+
+
+
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

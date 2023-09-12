@@ -1,0 +1,410 @@
+﻿<ContentPage x:Class="BPayPOCns.Views.AdobeDesign.Client"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Cliente">
+    <ContentPage.Content>
+        <Grid>
+
+
+
+            <ScrollView Orientation="Both">
+                <StackLayout>
+                    <!-- Aqui el contenido original dentro del ScrollView horizontal -->
+
+                    <AbsoluteLayout x:Name="page_Main_ek1"
+				         AbsoluteLayout.LayoutBounds="0,0,494,760">
+
+
+                        <BoxView x:Name="_bg__Main_ek2"
+					Color="#ffffff"
+					AbsoluteLayout.LayoutBounds="0,0,494,760" />
+                        <Frame x:Name="rect_ngulo_0"
+					BorderColor="Gray"
+					AbsoluteLayout.LayoutBounds="8,54,485,430" />
+
+
+                        <AbsoluteLayout x:Name="componente_1" 
+					 AbsoluteLayout.LayoutBounds="8,166,461,45">
+
+                            <BoxView x:Name="rect_ngulo_1"
+						Color="LightGray"
+						AbsoluteLayout.LayoutBounds="1,34,481,70" />
+                        </AbsoluteLayout>
+
+
+                        <AbsoluteLayout x:Name="componente_2" 
+					 AbsoluteLayout.LayoutBounds="8,166,461,90" >
+
+                            <BoxView x:Name="rect_ngulo_2"
+						Color="LightGray"
+						AbsoluteLayout.LayoutBounds="1,190,481,125" />
+                        </AbsoluteLayout>
+
+                        <Label x:Name="label_cliente"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="22"
+						TextColor="#000000"
+						AbsoluteLayout.LayoutBounds="13,10,252,61">
+                            <Label.Text>
+                                Cliente
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_no_cliente"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="Blue"
+						AbsoluteLayout.LayoutBounds="17,60,252,61">
+                            <Label.Text>
+                                No de Cliente
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_nombre"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="Blue"
+						AbsoluteLayout.LayoutBounds="17,120,252,61">
+                            <Label.Text>
+                                Nombre
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_direccion"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="Blue"
+						AbsoluteLayout.LayoutBounds="17,200,252,61">
+                            <Label.Text>
+                                Direccion
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_valor_nombre"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="DimGray"
+						AbsoluteLayout.LayoutBounds="120,120,100,72">
+                            <Label.Text>
+                                ARYAM VELEZ ALVAREZ
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_valor_direccion"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="DimGray"
+						AbsoluteLayout.LayoutBounds="120,200,100,72">
+                            <Label.Text>
+                                AVENIDA ALCAZAR EDIF.33 A
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_unidad"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="Blue"
+						AbsoluteLayout.LayoutBounds="250,60,252,61">
+                            <Label.Text>
+                                Unidad
+                            </Label.Text>
+                        </Label>
+
+
+
+                        <Label x:Name="label_estatus"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="Blue"
+						AbsoluteLayout.LayoutBounds="250,120,252,61">
+                            <Label.Text>
+                                Estatus
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_fecha_de"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="Blue"
+                        AbsoluteLayout.LayoutBounds="250,200,252,61">
+                            <Label.Text>
+                                Fecha de
+                            </Label.Text>
+                        </Label>
+
+
+                        <Label x:Name="label_entrada"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="Blue"
+						AbsoluteLayout.LayoutBounds="250,222,252,61">
+                            <Label.Text>
+                                entrada
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_fecha_de_2"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="Blue"
+						AbsoluteLayout.LayoutBounds="250,282,252,61">
+                            <Label.Text>
+                                Fecha de
+                            </Label.Text>
+                        </Label>
+                        <Label x:Name="label_salida"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="Blue"
+						AbsoluteLayout.LayoutBounds="250,302,252,61">
+                            <Label.Text>
+                                salida
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_proyecto"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="Blue"
+						AbsoluteLayout.LayoutBounds="250,364,252,61">
+                            <Label.Text>
+                                Proyecto
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_valor_unidad"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="DimGray"
+						AbsoluteLayout.LayoutBounds="350,60,252,61">
+                            <Label.Text>
+                                531
+                            </Label.Text>
+                        </Label>
+
+
+
+                        <Label x:Name="label_valor_estatus"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="DimGray"
+						AbsoluteLayout.LayoutBounds="350,120,252,61">
+                            <Label.Text>
+                                Current
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_valor_fecha_de"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="DimGray"
+                        AbsoluteLayout.LayoutBounds="350,210,252,61">
+                            <Label.Text>
+                                05/01/2023
+                            </Label.Text>
+                        </Label>
+
+
+                        <Label x:Name="label_valor_proyecto"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="18"
+						TextColor="DimGray"
+						AbsoluteLayout.LayoutBounds="350,364,150,100">
+                            <Label.Text>
+                                Manuel de la Pila Iglesias (Ramon de la Pila)
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_desglose_compromisos"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="Title"
+						TextColor="Black"
+						AbsoluteLayout.LayoutBounds="20,490,400,70">
+                            <Label.Text>
+                                Desglose de Compromisos
+                            </Label.Text>
+                        </Label>
+
+                        <Label x:Name="label_especificar_a_pagar"
+						FontFamily="Segoe UI"
+						FontAttributes="Bold"
+						FontSize="16"
+						TextColor="Blue"
+						AbsoluteLayout.LayoutBounds="5,530,600,61">
+                            <Label.Text>
+                                Por favor especifique al menos cantidad a pagar de $332.00
+                            </Label.Text>
+                        </Label>
+
+
+                    </AbsoluteLayout>
+
+
+                    <!-- Agrega mas elementos como sea necesario -->
+
+                    <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Always" VerticalOptions="StartAndExpand" Grid.Row="1">
+
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+
+                            <ScrollView Grid.Row="0" Orientation="Horizontal" HorizontalScrollBarVisibility="Always">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition Width="auto" />
+                                        <!-- Agrega mas columnas segun las columnas de tu tabla -->
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Su Pago" FontAttributes="Bold" FontSize="18" TextColor="Orange" Margin="1" />
+                                    <Label Grid.Column="1" Text="Unidad" FontAttributes="Bold" FontSize="18" TextColor="Orange" Margin="1" />
+                                    <Label Grid.Column="2" Text="Fecha" FontAttributes="Bold" FontSize="18" TextColor="Orange" Margin="1" />
+                                    <Label Grid.Column="3" Text="Cantidad Original" FontAttributes="Bold" FontSize="18" TextColor="Orange"  Margin="1" />
+                                    <Label Grid.Column="4" Text="Balance" FontAttributes="Bold" FontSize="18" TextColor="Orange" Margin="1" />
+                                    <Label Grid.Column="5" Text="Concepto" FontAttributes="Bold" FontSize="18" TextColor="Orange" Margin="1" />
+                                    <Label Grid.Column="6" Text="Descripcion" FontAttributes="Bold" FontSize="18" TextColor="Orange" Margin="1" />
+                                    <!-- Agrega mas etiquetas de encabezado segun las columnas de tu tabla -->
+                                </Grid>
+                            </ScrollView>
+
+                            <ScrollView x:Name="tablaContainer" AbsoluteLayout.LayoutBounds="35, 600, 420, 174" Orientation="Both">
+                                <Grid x:Name="tablaGrid">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+
+                                    <ScrollView Grid.Row="0" Orientation="Horizontal" HorizontalScrollBarVisibility="Always" >
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="auto" />
+                                                <ColumnDefinition Width="auto" />
+                                                <ColumnDefinition Width="auto" />
+                                                <ColumnDefinition Width="auto" />
+                                                <ColumnDefinition Width="auto" />
+                                                <ColumnDefinition Width="auto" />
+                                                <ColumnDefinition Width="auto" />
+                                                <!-- Agrega mas columnas segun las columnas de tu tabla -->
+                                            </Grid.ColumnDefinitions>
+                                            <Label Grid.Column="0" Text="Su Pago" FontAttributes="Bold" FontSize="18" TextColor="Orange" Margin="1" />
+                                            <Label Grid.Column="1" Text="Unidad" FontAttributes="Bold" FontSize="18" TextColor="Orange" Margin="1" />
+                                            <Label Grid.Column="2" Text="Fecha" FontAttributes="Bold" FontSize="18" TextColor="Orange" Margin="1" />
+                                            <Label Grid.Column="3" Text="Cantidad Original" FontAttributes="Bold" FontSize="18" TextColor="Orange"  Margin="1" />
+                                            <Label Grid.Column="4" Text="Balance" FontAttributes="Bold" FontSize="18" TextColor="Orange" Margin="1" />
+                                            <Label Grid.Column="5" Text="Concepto" FontAttributes="Bold" FontSize="18" TextColor="Orange" Margin="1" />
+                                            <Label Grid.Column="6" Text="Descripcion" FontAttributes="Bold" FontSize="18" TextColor="Orange" Margin="1" />
+                                            <!-- Agrega mas etiquetas de encabezado segun las columnas de tu tabla -->
+                                        </Grid>
+                                    </ScrollView>
+
+
+                                    <ScrollView Grid.Row="1" Orientation="Both" VerticalScrollBarVisibility="Always" HorizontalScrollBarVisibility="Always" >
+                                        <StackLayout>
+                                            <ListView x:Name="tablaListView" RowHeight="50" SeparatorVisibility="Default">
+                                                <ListView.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <ViewCell>
+                                                            <Grid>
+                                                                <Grid.ColumnDefinitions>
+                                                                    <ColumnDefinition Width="auto" />
+                                                                    <ColumnDefinition Width="auto" />
+                                                                    <ColumnDefinition Width="auto" />
+                                                                    <ColumnDefinition Width="auto" />
+                                                                    <ColumnDefinition Width="auto" />
+                                                                    <ColumnDefinition Width="auto" />
+                                                                    <ColumnDefinition Width="auto" />
+                                                                    <!-- Agrega mas columnas segun las columnas de tu tabla -->
+                                                                </Grid.ColumnDefinitions>
+                                                                <Label Grid.Column="0" FontSize="18" TextColor="Black" LineBreakMode="WordWrap" Margin="1">
+                                                                    <Label.FormattedText>
+                                                                        <FormattedString>
+                                                                            <Span Text="{Binding Columna_su_pago}" FontAttributes="Bold" />
+                                                                            <Span Text="$" />
+                                                                        </FormattedString>
+                                                                    </Label.FormattedText>
+                                                                </Label>
+                                                                <BoxView Grid.Column="0" BackgroundColor="Black" WidthRequest="2" VerticalOptions="FillAndExpand" Margin="2" />
+                                                                <Label Grid.Column="1" Text="{Binding Columna_unidad}" FontSize="18" TextColor="Black" LineBreakMode="WordWrap" Margin="1" />
+                                                                <BoxView Grid.Column="1" BackgroundColor="Black" WidthRequest="2" VerticalOptions="FillAndExpand" Margin="2" />
+                                                                <Label Grid.Column="2" Text="{Binding Columna_fecha, StringFormat='{0:dd/MM/yyyy}'}" FontSize="18" TextColor="Black" LineBreakMode="WordWrap" Margin="1" />
+                                                                <BoxView Grid.Column="2" BackgroundColor="Black" WidthRequest="2" VerticalOptions="FillAndExpand" Margin="2" />
+                                                                <Label Grid.Column="3" Text="{Binding Columna_cantidad_original}" FontSize="18" TextColor="Black" LineBreakMode="WordWrap" Margin="1" />
+                                                                <BoxView Grid.Column="3" BackgroundColor="Black" WidthRequest="2" VerticalOptions="FillAndExpand" Margin="2" />
+                                                                <Label Grid.Column="4" Text="{Binding Columna_balance}" FontSize="18" TextColor="Black" LineBreakMode="WordWrap" Margin="1" />
+                                                                <BoxView Grid.Column="4" BackgroundColor="Black" WidthRequest="2" VerticalOptions="FillAndExpand" Margin="2" />
+                                                                <Label Grid.Column="5" Text="{Binding Columna_concepto}" FontSize="18" TextColor="Black" LineBreakMode="WordWrap" Margin="1" />
+                                                                <BoxView Grid.Column="5" BackgroundColor="Black" WidthRequest="2" VerticalOptions="FillAndExpand" Margin="2" />
+                                                                <Label Grid.Column="6" Text="{Binding Columna_descripcion}" FontSize="18" TextColor="Black" LineBreakMode="WordWrap" Margin="1" />
+                                                                <BoxView Grid.Column="6" BackgroundColor="Black" WidthRequest="2" VerticalOptions="FillAndExpand" Margin="2" />
+                                                                <!-- Agrega mas etiquetas y BoxViews segun las columnas de tu tabla -->
+                                                            </Grid>
+                                                        </ViewCell>
+                                                    </DataTemplate>
+                                                </ListView.ItemTemplate>
+                                            </ListView>
+
+                                            <StackLayout Orientation="Horizontal" Margin="5">
+                                                <Entry Placeholder="$" Keyboard="Numeric" BackgroundColor="ForestGreen"/>
+                                            </StackLayout>
+
+                                           
+                                        </StackLayout>
+                                        
+                                    </ScrollView>
+
+                                   
+                                </Grid>
+                                
+                            </ScrollView>
+                            </Grid>
+
+                    </ScrollView>
+
+                     
+                        <Button AbsoluteLayout.LayoutBounds="30,790,215,42" BackgroundColor="Blue" x:Name="btnProcesar" Clicked="OnProcesarClicked"
+                    Text="Procesar" FontFamily="Segoe UI" FontAttributes="Bold" FontSize="15" Margin="25, -500,400, 2"/>
+                 
+
+                    <ScrollView Orientation="Vertical" >
+                        <StackLayout>
+                            <!-- Aqui el contenido original dentro del ScrollView vertical -->
+
+
+                            <!-- Agrega mas elementos como sea necesario -->
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+            </ScrollView>
+    
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BPayPOCns.Views.MainPage"
+             xmlns:vm="clr-namespace:BPayPOCns.ViewModels"
+             Title="{Binding Title}">
+    
+    <ContentPage.BindingContext>
+        <vm:MainViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Label Text="Administración de Vivienda" HorizontalTextAlignment="Left" Margin="5,10,0,0" VerticalTextAlignment="Top"  FontSize="20" FontAttributes="Bold"/>
+        <Label Text="Pública (Dpto. Vivienda)" HorizontalTextAlignment="Left" Margin="5,50,0,0" VerticalTextAlignment="Top"   FontSize="20" FontAttributes="Bold"/>
+
+        <Label Text="DEPARTAMENTO DE LA" HorizontalTextAlignment="Left" Margin="300,80,0,0" VerticalTextAlignment="Top" />
+        <Label Text="VIVIENDA" HorizontalTextAlignment="Left" Margin="300,100,0,0" VerticalTextAlignment="Top"  FontSize="35" FontAttributes="Bold" TextColor="LightSeaGreen" />
+
+        <Button Text="Idioma"  Margin="400,-700,0,0" ScaleX="0.5" ScaleY="0.04"/>
+
+        <Label Text=" Instrucciones:" HorizontalTextAlignment="Start" Margin="10,300,0,435" VerticalTextAlignment="Top" FontSize="25" Background="Orange"/>
+      
+       
+
+
+
+    </Grid>
+
+</ContentPage>

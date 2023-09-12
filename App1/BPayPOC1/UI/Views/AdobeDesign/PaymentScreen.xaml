@@ -1,0 +1,30 @@
+<ContentPage x:Class="BPayPOCns.Views.AdobeDesign.PaymentScreen"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Pago" >
+
+    <ContentPage.Resources>
+        <Style TargetType="Label" x:Key="ContentLabelStyle" x:Name="custom_content">
+            <Setter Property="Margin" Value="0,10,0,0" />
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <Grid>
+            <!-- Primera fila para la barra de carga y el boton de regresar -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Button Grid.Row="0" BackgroundColor="Green" TextColor="White" Text="Regresar" x:Name="btn_regresar" Clicked="OnRegresarClicked" />
+
+          <!--WebView para mostrar el sitio web -->
+            <!--RS, <WebView Grid.Row="1" x:Name="webView" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Navigated="OnNavigatedAsync" />-->
+            <WebView Grid.Row="1" x:Name="webView" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Navigated="webView_Navigated"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
